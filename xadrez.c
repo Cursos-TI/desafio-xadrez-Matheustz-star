@@ -26,5 +26,19 @@ int main() {
         passoRainha++;
     } while (passoRainha <= 8);
 
-    return 0;
+    // Simulação do CAVALO com dois loops for aninhados
+printf("\nMovimento do CAVALO (2 casas para cima e 1 para a direita):\n");
+
+// Primeiro loop para os dois movimentos "Cima"
+for (int i = 0; i < 1; i++) {
+    for (int j = 0; j < 2; j++) {
+        printf("Cima\n");
+    }
+    // Depois dos dois "Cima", fazemos o movimento "Direita"
+    for (int k = 0; k < 1; k++) {
+        printf("Direita\n");
+    }
+}
+
+return 0;
 }
